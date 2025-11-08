@@ -335,12 +335,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📧 Contact
-
-For questions or support, please reach out:
-- **Email**: akashk79026@gmail.com
-- **GitHub**: [@AkashK0907](https://github.com/AkashK0907)
-
----
-
 
