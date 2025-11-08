@@ -1,4 +1,5 @@
-<img width="1318" height="252" alt="image" src="https://github.com/user-attachments/assets/719089f8-044c-4425-8e53-9f980b6d6b90" /># 🏥 Raksha - AI-Powered Elderly Healthcare App
+```markdown
+# 🏥 Raksha - AI-Powered Elderly Healthcare App
 
 ![Raksha Logo](https://img.shields.io/badge/Raksha-Healthcare-blue?style=for-the-badge)
 ![AI Powered](https://img.shields.io/badge/AI-Powered-green?style=for-the-badge)
@@ -47,10 +48,12 @@ RunAnywhere SDK is an on-device AI framework that enables powerful Large Languag
 We integrated the RunAnywhere SDK into our Android/Capacitor hybrid app:
 
 **Dependencies Added** (`android/app/build.gradle`):
+```gradle
 dependencies {
     // RunAnywhere SDK - Local AARs
     implementation files('libs/RunAnywhereKotlinSDK-release.aar')
     implementation files('libs/runanywhere-llm-llamacpp-release.aar')
+    
     // Required SDK dependencies
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3"
@@ -58,29 +61,35 @@ dependencies {
     implementation "io.ktor:ktor-client-core:2.3.5"
     implementation "io.ktor:ktor-client-okhttp:2.3.5"
 }
+```
 
 #### 2. **Native Bridge Plugin**
 
 Created a Capacitor plugin (`RakshaAIPlugin.java`) to bridge JavaScript and native Android code:
 
-(java)
+```java
 @CapacitorPlugin(name = "RakshaAI")
 public class RakshaAIPlugin extends Plugin {
+    
     @PluginMethod
     public void initializeAI(PluginCall call) {
         // Initialize RunAnywhere SDK
         RunAnywhere.initialize(getContext(), "dev", SDKEnvironment.DEVELOPMENT);
     }
+    
     @PluginMethod
     public void askMedicalQuestion(PluginCall call) {
         String question = call.getString("question");
         // Process with RunAnywhere SDK and return AI response
     }
 }
+```
 
 #### 3. **JavaScript Integration**
 
-Integrated AI capabilities into the web layer(js):
+Integrated AI capabilities into the web layer:
+
+```javascript
 // Initialize AI system
 async function initializeRakshaAI() {
     if (window.Capacitor) {
@@ -94,11 +103,13 @@ async function askAIMedicalQuestion(question, language) {
     const result = await RakshaAI.askMedicalQuestion({ question });
     return result.response;
 }
+```
 
 #### 4. **Multi-language AI Responses**
 
-Implemented language-aware prompting for localized healthcare guidance (js):
+Implemented language-aware prompting for localized healthcare guidance:
 
+```javascript
 function createLocalizedPrompt(question, language) {
     if (language === 'HI') {
         return `आप एक चिकित्सा सहायक हैं। सरल हिंदी में उत्तर दें: ${question}`;
@@ -108,6 +119,7 @@ function createLocalizedPrompt(question, language) {
         return `You are a medical assistant for elderly patients. Answer in simple terms: ${question}`;
     }
 }
+```
 
 #### 5. **AI Features Implementation**
 
@@ -155,6 +167,7 @@ function createLocalizedPrompt(question, language) {
 
 ### Project Structure
 
+```
 Raksha/
 ├── android/                    # Native Android project
 │   ├── app/
@@ -176,6 +189,7 @@ Raksha/
 ├── capacitor.config.json      # Capacitor configuration
 ├── package.json               # Dependencies
 └── README.md
+```
 
 ---
 
@@ -306,9 +320,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Team
 
-- **Disha K** - [di5hak](https://github.com/di5hak)
 - **Akash K** - [@AkashK0907](https://github.com/AkashK0907)
-- **Anusha ** - [devezen](https://github.com/devezen)
+
 ---
 
 ## 🙏 Acknowledgments
@@ -325,3 +338,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For questions or support, please reach out:
 - **Email**: akashk79026@gmail.com
 - **GitHub**: [@AkashK0907](https://github.com/AkashK0907)
+
+---
+
