@@ -321,6 +321,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👥 Team
 
 - **Akash K** - [@AkashK0907](https://github.com/AkashK0907)
+- **Disha K** - [@di5hak](https://github.com/di5hak)
+- **Anusha** - [@devezen](https://github.com/devezen)
 
 ---
 
@@ -341,16 +343,4 @@ For questions or support, please reach out:
 
 ---
 
-## 🌟 Show Your Support
-
-If you found this project helpful, please ⭐ star the repository!
-
----
-
-**Made with ❤️ for better elderly healthcare**
-```
-
-**Save the file and tell me "README updated!"** 
-
-Then we'll push it to GitHub! 📝
 
