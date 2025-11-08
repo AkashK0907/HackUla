@@ -1,16 +1,4 @@
-**Absolutely! Let me create a comprehensive README for your Raksha app!** 📝
 
-## **Step 30: Create an Awesome README**
-
-**Run this command to open the README file:**
-
-```bash
-code README.md
-```
-
-**Then REPLACE everything in the file with this:**
-
-```markdown
 # 🏥 Raksha - AI-Powered Elderly Healthcare App
 
 ![Raksha Logo](https://img.shields.io/badge/Raksha-Healthcare-blue?style=for-the-badge)
