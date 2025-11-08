@@ -9,16 +9,16 @@
 
 ---
 
-## 📱 Features
+## Features
 
-### 🤖 AI-Powered Features (RunAnywhere SDK)
+### AI-Powered Features (RunAnywhere SDK)
 
 - **AI Medical Assistant**: Ask any medical question and get intelligent, context-aware responses in multiple languages
 - **AI Health Analyzer**: Comprehensive health profile analysis with personalized recommendations
 - **AI Voice Assistant**: Natural language voice commands for hands-free interaction
 - **Multi-language Support**: AI responses in English, Hindi, and Kannada
 
-### 💊 Core Healthcare Features
+### Core Healthcare Features
 
 - **Smart Medicine Reminders**: Time-based medication reminders with photo identification and dose tracking
 - **Health Records Management**: Securely store and organize medical documents, prescriptions, and reports
@@ -30,7 +30,7 @@
 
 ---
 
-## 🤖 RunAnywhere SDK Integration
+## RunAnywhere SDK Integration
 
 ### What is RunAnywhere SDK?
 
@@ -141,7 +141,7 @@ function createLocalizedPrompt(question, language) {
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ### Technology Stack
 
@@ -193,7 +193,7 @@ Raksha/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -266,7 +266,7 @@ Raksha/
 
 ---
 
-## 🔐 Security & Privacy
+## Security & Privacy
 
 - 🔒 **JWT Authentication**: Secure token-based auth
 - 🔐 **On-device AI**: All AI processing happens locally (no data sent to cloud)
@@ -288,7 +288,7 @@ All UI elements and AI responses support these languages.
 
 ---
 
-## 🎯 Future Enhancements
+##  Future Enhancements
 
 - [ ] AI Symptom Checker with urgency detection
 - [ ] Medicine Interaction Checker
@@ -300,25 +300,8 @@ All UI elements and AI responses support these languages.
 
 ---
 
-## 🤝 Contributing
 
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 👥 Team
+## Team
 
 - **Akash K** - [@AkashK0907](https://github.com/AkashK0907)
 - **Disha K** - [@di5hak](https://github.com/di5hak)
@@ -326,7 +309,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **RunAnywhere SDK** - For providing powerful on-device AI capabilities
 - **RVU Hackathon** - For the opportunity to build this solution
